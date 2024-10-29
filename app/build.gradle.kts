@@ -4,7 +4,6 @@ plugins {
     alias(libs.plugins.kapt)
     alias(libs.plugins.dagger.hilt)
     alias(libs.plugins.navigation.safearg)
-
 }
 
 android {
@@ -63,7 +62,9 @@ dependencies {
     kapt(libs.glide.compiler)
     implementation(libs.okhttp3)
     implementation(libs.navigation.fragment.ktx)
+
     implementation(libs.navigation.ui)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
